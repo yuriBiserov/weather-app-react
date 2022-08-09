@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(183, 220, 244);
+  background: linear-gradient(
+    90deg,
+    rgba(183, 220, 244, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}

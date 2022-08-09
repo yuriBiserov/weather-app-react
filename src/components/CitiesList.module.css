@@ -1,0 +1,9 @@
+.citiesList {
+  width: 90%;
+  margin: auto;
+  list-style: none;
+}
+.results {
+  width: 200px;
+  margin-left: 5%;
+}

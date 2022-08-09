@@ -1,0 +1,27 @@
+.ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 450px;
+  text-align: center;
+  margin: auto;
+}
+
+.button {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(180, 206, 235);
+  width: 100px;
+  height: 40px;
+  border-radius: 25px;
+  font-size: 18px;
+  border: none;
+  box-shadow: 4px 4px 2px 0px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #ffffff;
+  transition: 0.2s;
+  background-color: rgb(138, 157, 179);
+}

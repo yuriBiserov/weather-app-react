@@ -1,0 +1,80 @@
+.card {
+  display: flex;
+  font-size: large;
+  margin-bottom: 20px;
+  background-color: rgb(180, 206, 235);
+  height: 70px;
+  padding: 5px;
+  transition: 0.2s;
+  border-radius: 5px;
+  box-shadow: 4px 4px 2px 0px rgba(0, 0, 0, 0.5);
+}
+.cardTitle {
+  display: flex;
+  margin-bottom: 8px;
+  margin-top: 30px;
+  background-color: rgb(180, 206, 235);
+  height: 30px;
+  transition: 0.2s;
+  border-radius: 5px;
+  box-shadow: 4px 4px 2px 0px rgba(0, 0, 0, 0.5);
+}
+.icon {
+  width: 10%;
+}
+.temp {
+  width: 20%;
+  padding: 10px;
+}
+.name {
+  width: 20%;
+  padding: 10px;
+}
+
+.desc {
+  width: 20%;
+  padding: 10px;
+}
+.min_max {
+  width: 20%;
+  padding: 10px;
+}
+.wind {
+  width: 20%;
+  padding: 10px;
+}
+.country {
+  width: 20%;
+  margin-left: 20%;
+  padding: 10px;
+}
+
+.state {
+  width: 20%;
+  margin-left: 10%;
+  padding: 10px;
+}
+
+.button {
+  width: 20%;
+  align-items: right;
+  font-size: large;
+  border: none;
+  border-radius: 50px;
+  background-color: rgb(228, 241, 255);
+  height: 50px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.buttonTitle {
+  width: 20%;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.button:hover {
+  transition: 0.3s;
+  color: white;
+  background-color: rgb(126, 155, 189);
+  cursor: pointer;
+}
